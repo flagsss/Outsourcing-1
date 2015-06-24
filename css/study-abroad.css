@@ -1,0 +1,65 @@
+﻿/*! 留学导师样式 | MIT License | 神秘组织 */
+
+/**
+ * 背景样式
+ */
+body {
+  background-image: url('../static/background.png');
+  color: #666;
+}
+
+/**
+ * 留学头部导航
+ */
+.study-abroad-nav {
+  margin-top: 22px;
+}
+
+.handover-nav {
+  margin-left: 4px;
+}
+
+  .handover-nav > li {
+    padding: 10px;
+    margin-right: 40px;
+    color: #888;
+    cursor: pointer;
+  }
+
+  .handover-nav > .active {
+    border-bottom: 2px solid #009ddc;
+    color: #009ddc;
+  }
+
+.classify .title {
+  float: left;
+  margin-top:10px;
+  width: 40px;
+  font-size: 13px;
+}
+
+.classify > ul {
+  float: left;
+  max-width: 920px;
+  font-size: 12px;
+}
+
+  .classify > ul > li {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .classify > ul > .active {
+    background-color: #00c268;
+    color: white;
+  }
+  
+  .classify > ul > .active:hover{
+    background-color: #00c268;
+    color: white;
+  }
+  .classify > ul > li:hover {
+    background-color: #f3f3f3;
+  }
+
