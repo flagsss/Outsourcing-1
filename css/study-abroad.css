@@ -6,7 +6,6 @@
 body {
   background-image: url('../static/background.png');
   color: #666;
-  font-family: '微软雅黑','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /**
@@ -46,13 +45,12 @@ body {
 
 .classify > ul {
   float: left;
-  max-width: 920px;
+  max-width: 92 0px;
   font-size: 12px;
 }
 
   .classify > ul > li {
     padding: 10px;
-    margin: 2px;
     border-radius: 5px;
     cursor: pointer;
   }
@@ -76,16 +74,11 @@ body {
  * 教师信息卡片
  */
 .teacher-card {
-  margin: 88px 10px 0px;
+  margin: 50px 10px 0px;
   padding-bottom: 10px;
   text-align: center;
   font-size: 12px;
 }
-
-  .teacher-card .content {
-    box-shadow: rgba(1,1,1,.24) 0px 2px 1px;
-    padding-bottom: 0px;
-  }
 
   .teacher-card .head {
     margin-top: -54px;
@@ -116,43 +109,5 @@ body {
     }
 
   .teacher-card .more {
-    padding: 0px 20px;
-    margin-left: -20px;
-    display: block;
-    width: 100%;
-    line-height: 34px;
     background-color: #f8f8f8;
   }
-
-/**
- * 分页
- */
-
-.paging {
-  margin-top: 60px;
-  width: 360px;
-}
-
-  .paging > ul > li {
-    margin: 0px 8px;
-    display: block;
-    width: 24px;
-    line-height: 24px;
-    border-radius: 24px;
-    background-color: #dedede;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 800;
-    color: #000;
-    cursor: pointer;
-  }
-
-    .paging > ul > .active, .paging > ul > li:hover {
-      background-color: #7b7b7b;
-      color: #fff;
-    }
-
-    .paging > ul > li:first-child, .paging > ul > li:last-child {
-      width: 58px;
-      font-weight: 300;
-    }
