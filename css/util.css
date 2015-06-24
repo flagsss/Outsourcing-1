@@ -23,8 +23,16 @@
   padding: 20px;
   border-radius: 5px;
   border: 1px solid #e8e8e8;
-  box-shadow: rgba(1,1,1,.07) 0px 1px inset;
+  box-shadow: rgba(1,1,1,.07) 0px 1px;
   background-color: #fff;
+}
+
+.session {
+  position: relative;
+  display: block;
+  float: none;
+  margin: 30px auto;
+  width: 100%;
 }
 
 
@@ -43,15 +51,49 @@
   clear: both;
 }
 
+
+.t-blue {
+  color: #009ddc;
+}
+
+.t-green {
+  color: #00c268;
+}
+
+._mt10 {
+  margin-top: -10px;
+}
+
+.mt6 {
+  margin-top: 6px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
 /**
  * 3. 样式和谐
  */
 * {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
+
 li {
   list-style: none;
   float: left;
 }
 
+p {
+  margin: 10px auto;
+  line-height: 200%;
+}
+
+/**
+ * 栅格系统
+ */
+.col-md-3 {
+  float: left;
+  width: 25%;
+}
