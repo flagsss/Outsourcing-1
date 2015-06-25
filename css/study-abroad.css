@@ -1,13 +1,6 @@
 ﻿/*! 留学导师样式 | MIT License | 神秘组织 */
 
-/**
- * 背景样式
- */
-body {
-  background-image: url('../static/background.png');
-  color: #666;
-  font-family: '微软雅黑','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 
 /**
  * 留学头部导航
@@ -39,14 +32,14 @@ body {
 
 .classify .title {
   float: left;
-  margin-top: 10px;
+  margin-top: 11px;
   width: 40px;
   font-size: 13px;
 }
 
 .classify > ul {
   float: left;
-  max-width: 920px;
+  max-width: 914px;
   font-size: 12px;
 }
 
@@ -124,35 +117,3 @@ body {
     background-color: #f8f8f8;
   }
 
-/**
- * 分页
- */
-
-.paging {
-  margin-top: 60px;
-  width: 360px;
-}
-
-  .paging > ul > li {
-    margin: 0px 8px;
-    display: block;
-    width: 24px;
-    line-height: 24px;
-    border-radius: 24px;
-    background-color: #dedede;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 800;
-    color: #000;
-    cursor: pointer;
-  }
-
-    .paging > ul > .active, .paging > ul > li:hover {
-      background-color: #7b7b7b;
-      color: #fff;
-    }
-
-    .paging > ul > li:first-child, .paging > ul > li:last-child {
-      width: 58px;
-      font-weight: 300;
-    }
